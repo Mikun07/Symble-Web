@@ -1,0 +1,29 @@
+.blu-bck {
+    background: #24164C;
+    color: #FFFFFF;
+    padding: 13px 49px 13px 48px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.blu-bck:hover {
+ background: #323232;
+}
+
+
+.wht-outline {
+    background: transparent;
+    color: #FFFFFF;
+    padding: 13px 49px 13px 48px;
+    border: 3px solid #EFF2F1;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wht-outline:hover {
+    color: #F18902;
+    border: 3px solid #F18902;
+}

@@ -1,0 +1,30 @@
+.header {
+    margin: 0 430px;
+    display: flex;
+}
+
+.header-txt {
+    margin: 15px auto;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #323232;
+}
+
+.line-1 {
+    border: 2px solid #F18902;
+    width: 0px ;
+    height: 18px;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.line-2 {
+    border: 2px solid #F18902;
+    width: 0px ;
+    height: 28px;
+    margin: 41px 7px 0;
+}

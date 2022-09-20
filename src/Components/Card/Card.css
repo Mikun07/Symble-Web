@@ -1,0 +1,42 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 75%;
+    margin-left: 180px;
+    margin-top: 55px;
+}
+
+.card-section-1 {
+    width: 40%;
+}
+
+.card-section-2 {
+    width: 40%;
+}
+
+.card-number {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #24164C;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+    color: #323232;
+    margin-top: 17px;
+}
+
+.card-subtxt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #999999;
+    margin-top: 17px;
+}

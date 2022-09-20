@@ -1,0 +1,87 @@
+.contact-container {
+    padding-top: 75px;
+}
+
+.contact-header {
+    background: #24164C;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact-txt {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.contact-line {
+    border: 3px solid #F18902;
+    width: 70px;
+}
+
+.contact-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 130px;
+    margin-top: 90px;
+    margin-left: 180px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.contact-footer-txt {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.contact-pop {
+    margin: 15px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-pop-txt {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.contact-pop-gry {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.pop-line {
+    border: 1px solid #CCCCCC;
+    width: 558px;
+    height: 0px;
+}

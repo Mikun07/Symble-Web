@@ -1,36 +1,21 @@
 import React from 'react'
 import './Card.css';
 
-function Card({ Number, Title, Subtxt, Pic, Switch }) {
+function Card({ Number, Title, Subtxt, Pic }) {
   return (
     <>
-      {Switch ?
         <div className="card-container">
-          <div className="card-section-1">
+          <div className="card-txt">
+            <h3 className='card-number'>
+              {Number}
+            </h3>
+            <h6 className='card-title'>{Title}</h6>
+            <p className='card-subtxt'>{Subtxt}</p>
+          </div>
+          <div className="card-img">
             <img src={Pic} alt="" />
           </div>
-          <div className="card-section-2">
-            <h3 className='card-number'>
-              {Number}
-            </h3>
-            <h6 className='card-title'>{Title}</h6>
-            <p className='card-subtxt'>{Subtxt}</p>
-          </div>
         </div>
-        :
-        <div className="card-container">
-          <div className="card-section-1">
-            <h3 className='card-number'>
-              {Number}
-            </h3>
-            <h6 className='card-title'>{Title}</h6>
-            <p className='card-subtxt'>{Subtxt}</p>
-          </div>
-          <div className="card-section-2">
-            <img src={Pic} alt="image goes here" />
-          </div>
-        </div>
-      }
     </>
   )
 }

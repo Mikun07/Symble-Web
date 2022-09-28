@@ -10,7 +10,7 @@ input {
     display: inline-block;
     box-sizing: border-box;
     width: 413px;
-    height: 45px;
+    height: 65px;
     outline: none;
     overflow: hidden;
     display: flex;
@@ -25,24 +25,63 @@ input[type="text"] {
     line-height: 24px;
     border: 2px solid #CCCCCC;
     padding: 0 25px;
-    padding-left: 5px;
+    padding-left: 26px;
     color: #323232;
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
 }
 
 input[type="submit"] {
     background: #24164C;
-    width: 155px;
+    width: 165px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     border: 2px solid #24164C;
     color: #FFFFFF;
-    padding-left: 6px;
-    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
 }
 
 input[type="submit"]:hover {
     background: #323232;
     border: 2px solid #323232;
+}
+
+@media screen and (max-width: 1126px) {
+    input {
+        height: 45px;
+        width: 313px;
+    }
+
+    input[type="text"] {
+        font-size: 12px;
+        padding-left: 16px;
+    }
+
+    input[type="submit"] {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        width: 105px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    input {
+        height: 45px;
+        width: 223px;
+    }
+
+    input[type="text"] {
+        font-size: 12px;
+        padding-left: 16px;
+    }
+
+    input[type="submit"] {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        width: 105px;
+    }
 }

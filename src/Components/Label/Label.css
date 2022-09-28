@@ -26,3 +26,32 @@
     color: #000000;
     padding: 5px;
 }
+
+@media screen and (max-width: 1126px) {
+    .label-style {
+        font-size: 12px;
+    }
+
+    .label-input {
+        width: 378px;
+    }
+
+    .label-textarea {
+        width: 378px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .label-style {
+        font-size: 12px;
+    }
+
+    .label-input {
+        width: 332px;
+    }
+
+    .label-textarea {
+        width: 332px;
+        height: 90px;
+    }
+}

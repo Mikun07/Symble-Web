@@ -10,10 +10,10 @@ function Header() {
                 <div className="header-title">
                     <div className="header-txt-section">
                         <h2 className='htxt'>Reward good content.</h2>
-                        <div className='hr-1'></div>
+                        <div className='hr-1 '></div>
                         <h2 className='htxt'>Receive as a creator.</h2>
-                        <div className='hr-1'></div>
-                        <p className='subtext'>Symble is a platform for creators to host live events and earn. Content consumers and fans also get to explore and appreciate content from their faves!</p>
+                        <div className='hr-1 hr-2'></div>
+                        <p className='header-subtext'>Symble is a platform for creators to host live events and earn. Content consumers and fans also get to explore and appreciate content from their faves!</p>
                         <Button Text="Join our Waitlist" className="wht-outline" />
                     </div>
                     <div className="header-img-section">

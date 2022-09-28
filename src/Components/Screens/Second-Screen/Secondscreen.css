@@ -1,115 +1,302 @@
 .secondscreen-container {
-    margin: auto;
     height: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
+    position: relative;
 }
 
-.green-bck {
-    width: auto;
-    height: 253px;
+.Lblu-bck {
     background: #7546F6;
-    display: flex;
-    padding-top: 20px;
-    margin-top: 100px;
+    width: 100%;
+    height: 200px;
 }
 
-.phone {
-    display: grid;
-    align-items: center;
+.phone-section-1 {
     justify-content: center;
-    gap: 15px;
-    padding-top: 20px;
-    padding-left: 250px;
-    grid-template-columns: 300px 300px 300px ;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding-top: 60px;
 }
 
-.bttm {
-    margin-top: 300px;
-    margin-left: 150px;
-    width: 80%;
+.phone-section-2 {
+    display: none;
 }
 
-.secondscreen-txt {
-    font-weight: 700;
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.sec-header {
     font-size: 48px;
-    line-height: 58px;
-    color: #323232;
+    font-weight: 800;
+}
+
+.sec-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.sec-bottom-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.sub-bottom {
-    display: flex;
-    padding: 45px;
-    width: auto;
-    height: auto;
-    justify-content: space-between;
-}
-
-.line {
-    width: 226px;
-    height: 0px;
-    margin-top: 30px;
-    border: 3px solid #323232;
-}
-
-.blu-txt {
+.sec-number {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 68px;
     line-height: 58px;
     color: #24164C;
+    margin-bottom: 30px;
 }
 
-.gry-txt {
+.sec-txt {
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 24px;
     color: #999999;
 }
 
-.info-sec {
-    align-items: center;
-    text-align: center;
-}
-
-
-.bottom-txt {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #323232;
+.sec-line {
+    border: 2px solid #24164C;
+    width: 250px;
+    height: 0px;
     margin-top: 70px;
-    margin-left: 550px;
 }
 
-.gry-bck {
-    margin-top: 40px;
+.bottom-section {
     display: flex;
-    justify-content: space-between;
-    height: 100px;
-    background: #E1EBF3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
 }
 
-.txt {
+.bottom-header {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.pale-bck {
+    background: #CFC2F2;
+    width: 100%;;
+    height: 150px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+.hmove {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 160px;
-    margin-left: 130px;
+    text-align: center;
+    gap: 192px;
 }
 
-/* .wht {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF; 
-} */
-
-.blu {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+.hslide {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 2px;
     color: #24164C;
+}
+
+.h-txt {
+    color: #24164C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+
+@media screen and (max-width: 1126px) {
+    .secondscreen-container {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 100px;
+    }
+
+    .phone-section-1 {
+        gap: 3px;
+        padding-top: 60px;
+    }
+
+    .phone-section-2 {
+        display: none;
+    }
+
+    .sec-header {
+        font-size: 36px;
+    }
+    
+    .sec-bottom {
+        margin-top: 40px;
+    }
+    
+    .sec-number {
+        font-size: 48px;
+    }
+    
+    .sec-txt {
+        font-size: 14px;
+    }
+    
+    .sec-line {
+        width: 150px;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    
+    .bottom-header {
+        font-size: 36px;
+    }
+      
+    .hmove {
+        gap: 100px;
+    }
+    
+    .h-txt {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .secondscreen-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 90px;
+        position: relative;
+
+    }
+
+    .Lblu-bck {
+        width: 115px;
+        height: 778px;
+        background: #7546F6;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .phone-section-1 {
+        display: none;
+    }
+
+    .box {
+        z-index: 2;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        gap: 5px;
+    }
+
+    .phone-section-2 {
+        margin-left: 25px;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt-section {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .sec-header {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #323232;
+    }
+
+    .sec-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .sec-number {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #24164C;
+        margin-bottom: 30px;
+    }
+    
+    .sec-txt {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #999999;
+        margin-top: 0px;
+    }
+    
+    .sec-line {
+        width: 0px;
+        height: 120px;
+        align-self: center;
+        margin-top: 0px;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .bottom-header {
+        font-size: 14px;
+    }
+
+    .hmove {
+        gap: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h-txt {
+        font-size: 12px;
+        display: flex;
+    }
+
+    .hslide {
+        justify-content: center;
+        color: #24164C;
+    } 
 }

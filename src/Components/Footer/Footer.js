@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { HashLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (

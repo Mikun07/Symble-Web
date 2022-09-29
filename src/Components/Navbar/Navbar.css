@@ -137,12 +137,12 @@ a:active{
 
 @media screen and (max-width: 414px) {
     .nav {
-        position: relative;
+        width: 100%;
     }
 
     .navbar-container {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         height: 60px;
         
     }

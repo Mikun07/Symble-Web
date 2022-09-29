@@ -18,9 +18,9 @@ function Sidebar({ sidebar, close }) {
                     </div>
                 </div>
                 <div className="nav-link">
-                    <HashLink className={toggleClass} to='/#' smooth>Home</HashLink>
-                    <HashLink to='/#contact' smooth>Contact Us</HashLink>
-                    <HashLink to='/#faqs' smooth>FAQs</HashLink>
+                    <HashLink className={toggleClass} to='/#' smooth={true}>Home</HashLink>
+                    <HashLink to='/#contact' smooth={true}>Contact Us</HashLink>
+                    <HashLink to='/#faqs' smooth={true}>FAQs</HashLink>
                     {/* <div className='sidebar-line' ></div>
                     <HashLink to=''>Sign up</HashLink>
                     <HashLink to=''>Sign in</HashLink> */}

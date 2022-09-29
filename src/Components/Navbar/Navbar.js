@@ -11,7 +11,7 @@ function Navbar({ openSidebar }) {
         <div className="navbar-container">
           <div className="navbar-logo">
             <img src={Symble} alt="" />
-            <HashLink to="/#" smooth>
+            <HashLink to="/#" smooth={true}>
               <p className='navbar-txt'>
                 Symble
               </p>
@@ -19,8 +19,8 @@ function Navbar({ openSidebar }) {
           </div>
           <div className="navbar-link">
             <ul className="navbar-items">
-              <HashLink to="/#faqs" smooth>FAQs</HashLink>
-              <HashLink to="/#contact" smooth>Contact Us</HashLink>
+              <HashLink to="/#faqs" smooth={true}>FAQs</HashLink>
+              <HashLink to="/#contact" smooth={true}>Contact Us</HashLink>
             </ul>
           </div>
           <div className='navbar-icon'>

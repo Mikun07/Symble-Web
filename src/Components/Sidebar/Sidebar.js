@@ -4,16 +4,18 @@ import Close from '../../Assets/SVG/close.svg';
 import './Sidebar.css';
 
 
-const toggleClass = ({isActive}) => isActive ? '' : ''
-function Sidebar({sidebar, close}) {
+const toggleClass = ({ isActive }) => isActive ? '' : ''
+function Sidebar({ sidebar, close }) {
     return (
         <>
-            <div className={sidebar? "sidebar sidebar--open": "sidebar"}>
+            <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
                 <div className="sidebar-header">
                     <h1 className="sidebar-header-txt">
                         Menu
                     </h1>
-                    <img src={Close} alt="" onClick={close}/>
+                    <div className="sidebar-icon">
+                        <img src={Close} alt="" onClick={close} />
+                    </div>
                 </div>
                 <div className="nav-link">
                     <HashLink className={toggleClass} to='/#' smooth>Home</HashLink>

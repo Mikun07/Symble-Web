@@ -5,6 +5,7 @@ import Landing from '../src/Pages/Landing/Landing';
 import Footer from './Components/Footer/Footer';
 import Backdrop from './Components/Sidebar/Backdrop';
 import Sidebar from './Components/Sidebar/Sidebar';
+import ScrollToTop from './Components/Scroll/ScrollToTop';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Backdrop sidebar={sidebar} />
       <Sidebar sidebar={sidebar} close={close} />
       <Landing />
+      <ScrollToTop />
       <Footer />
     </>
   );

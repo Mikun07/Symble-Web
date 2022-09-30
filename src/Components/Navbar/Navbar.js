@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Menu from '../../Assets/SVG/menu.svg';
-import { HashLink } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import Symble from '../../Assets/PNG/symble.png';
 
 function Navbar({ openSidebar }) {
@@ -11,16 +11,16 @@ function Navbar({ openSidebar }) {
         <div className="navbar-container">
           <div className="navbar-logo">
             <img src={Symble} alt="" />
-            <HashLink to="/#" smooth={true}>
+            <Link smooth to="#">
               <p className='navbar-txt'>
                 Symble
               </p>
-            </HashLink>
+            </Link>
           </div>
           <div className="navbar-link">
             <ul className="navbar-items">
-              <HashLink to="/#faqs" smooth={true}>FAQs</HashLink>
-              <HashLink to="/#contact" smooth={true}>Contact Us</HashLink>
+              <Link smooth to="#faqs">FAQs</Link>
+              <Link smooth to="#contact">Contact Us</Link>
             </ul>
           </div>
           <div className='navbar-icon'>

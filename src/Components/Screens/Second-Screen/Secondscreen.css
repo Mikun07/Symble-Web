@@ -7,6 +7,7 @@
     padding-left: 160px;
     padding-right: 160px;
     position: relative;
+    overflow: hidden;
 }
 
 .Lblu-bck {

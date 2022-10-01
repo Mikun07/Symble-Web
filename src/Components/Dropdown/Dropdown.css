@@ -4,6 +4,7 @@
     border: 2.6px solid #CCCCCC;
     border-radius: 10px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .dropdown-body {

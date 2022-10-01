@@ -5,6 +5,7 @@
     justify-content: space-between;
     gap: 300px;
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .rscard-txt {

@@ -8,6 +8,7 @@
     z-index: 9;
     transform: translateY(-100%);
     transition: all 0.9s;
+    overflow: hidden;
 }
 
 .sidebar-header {

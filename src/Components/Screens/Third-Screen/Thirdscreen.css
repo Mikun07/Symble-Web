@@ -10,6 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     gap: 30px;
+    overflow: hidden;
 }
 
 .thirdscreen-img-section-1 {

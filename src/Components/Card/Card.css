@@ -94,50 +94,36 @@
 
 @media screen and (max-width: 414px) {
     .card-container {
-        width: 95%;
         display: grid;
         grid-template-columns: repeat(auto, 330px);
         grid-template-areas: "img" "text";
-        justify-content: space-between;
-        gap: 40px;
-        padding-top: 90px;
+        justify-items: center;
+        gap: 60px;
         padding-left: 15px;
-        padding-right: 15px;  
+        padding-right: 15px; 
     }
 
     .card-img {
         grid-area: img;
-        display: flex;
-        width: 67%;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
     }
 
     .card-txt {
         grid-area: text;
-        width: 68%;  
-        display: flex;
-        flex-direction: column;
-        text-align: center;
     }
 
     .card-number {
         font-size: 28px;
         line-height: 18px;
-        margin-bottom: 25px;
     }
     
     .card-title {
         font-size: 24px;
-        line-height: 25px;
-        margin-bottom: 25px;
+        line-height: 30px;
     }
     
     .card-subtxt {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
-        margin-bottom: 25px;
     }
 
 }

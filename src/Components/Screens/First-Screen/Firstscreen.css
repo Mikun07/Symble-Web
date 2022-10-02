@@ -3,6 +3,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
     padding-right: 160px;
     padding-left: 160px;
     height: 100%;
